@@ -73,7 +73,7 @@ section span {
 }
 
 .input_email {
-    padding: 1rem 0 1rem 3.5rem;
+    padding: 1.5rem 0 1.5rem 3.5rem;
     outline: none;
     border: 1px solid var(--pale-blue);
     border-radius: 100px;
@@ -88,7 +88,7 @@ section span {
     border-radius: 100px;
     font-weight: var(--w-600);
     color: #fff;
-    padding: 1.5rem 3rem;
+    padding: 1.8rem 3rem;
     background-color: var(--blue);
     font-size: 15px;
     box-shadow: 0px 5px 50px 0px var(--pale-blue);
@@ -119,9 +119,13 @@ input::placeholder {
 }
 
 img[class="dashboard"] {
-    margin-top: 3rem;
+    margin-top: 5rem;
+    max-width: 120%;
+    
 }
-
+.social_content{
+    margin-top: -5rem;
+}
 .social_media svg {
     width: 30%;
     height: 30%;
@@ -197,6 +201,9 @@ footer aside {
         margin-left: 1rem;
         
     }
+    .social_content{
+        margin-top: -8rem;
+    }
     .social_media svg {
         max-width: 30%;
         max-height: 30%;
@@ -204,5 +211,8 @@ footer aside {
     .f {
         align-items: center;
         display: flex;
+    }
+    img[class="dashboard"] {
+        max-width: 40%;
     }
 }
