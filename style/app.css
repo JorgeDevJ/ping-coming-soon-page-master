@@ -148,7 +148,7 @@ footer aside {
     color: var(--gray);
 }
 .dat{
-    background-color: green;
+    background-color: var(--pale-blue);
     padding: 2rem 0;
 }
 .attribution{
