@@ -159,7 +159,7 @@ footer aside {
     color: var(--blue);
 }
 
-@media (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
     section h1 {
         font-size: 40px;
         margin-bottom: 15px;
@@ -197,7 +197,10 @@ footer aside {
         margin-left: 1rem;
         
     }
-
+    .social_media svg {
+        max-width: 30%;
+        max-height: 30%;
+    }
     .f {
         align-items: center;
         display: flex;
